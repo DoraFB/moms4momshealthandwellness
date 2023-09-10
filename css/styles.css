@@ -1,0 +1,244 @@
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'DM Serif Text', serif;
+  }
+  p {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .h1title{
+    font-family: 'Poppins', sans-serif;
+    color: #FF8A84;
+    size: 64px;
+    font-weight: 300;
+    text-align: center;
+    padding: 60px;
+  }
+
+  .momheadertext{
+    float: right;
+    margin-top: 12%;
+    margin-right: 10%;
+    color: white;
+    font-size: 48px;
+  }
+  .elementsicons {
+    height: 100%;
+    z-index: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #9CBEAF;
+  }
+
+  .h1doctor{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+  .button-container {
+    text-align: center;
+    padding: 50px 50px;/* Add padding for vertical centering */
+  }
+  
+  .button-containerform {
+    text-align: left;
+    padding: 50px 50px; /* Add padding for vertical centering */
+  }
+
+  button {
+    background-color: #FACEC2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    padding: 20px;
+  }
+  /* hover bar */
+  .customNav .nav-item .nav-link:hover,
+  .customNav .nav-item .nav-link :focus {
+    border-bottom: 2px solid #FF8A84;
+  }
+
+.customNav {
+    position: absolute;
+    width: 100%;
+    background-color: transparent !important;
+    z-index: 10;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0;
+    height: 125px;
+  }
+  
+  .navbar-brand img {
+    padding-right: 10px;
+    height: 45px;
+  }
+  
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  /* Navigation links */
+  .customNav a {
+    color: white;
+  }
+
+  .navCTA {
+    font-size: 15px;
+    background-color: #FACEC2;
+    color: white;
+    border: none;
+  }
+
+  .nav-item.active .nav-link {
+    color: #FACEC2;
+  }
+  
+  .header-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .header-image {
+    width: auto;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 100;
+    margin-top: -50px;
+    margin-left: 15%;
+  }
+  
+  .customNav {
+    position: relative;
+    z-index: 1;
+  }
+
+  .colored-rectangle {
+    background-color: #9CBEAF;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: 0;
+  }
+
+  
+/* cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom:2cm;
+ }
+
+span:first-of-type {
+  margin-left: 10px;
+}
+
+span:last-of-type {
+  margin-right: 10px;
+}
+ .card {
+  flex: 0 0 calc(50% - 10px);
+ }
+ .card-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+ }
+
+  .heroheart{
+    float: right;
+    margin-top: 12%;
+    position: absolute;
+    margin-left: 91%;
+    width: 70px;
+   }
+  
+   
+  /*doctor section*/
+  .colored-rectangle2{
+    background-color: #9CBEAF;
+    margin-top: 140px;
+    width: 100%;
+    height: 425px;
+    position: relative;
+    z-index: 0;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5%;
+  }
+  
+  .mendoctor{
+    width: auto;
+    height: 545px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 100;
+    margin-top: -120px;
+    margin-left: 68%;
+  }
+
+  .button-containerform {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+
+ /* Footer */
+ .socialmedia{
+  display: inline-block;
+  width: 100px;
+  margin-left: 25%; 
+}
+ .socialmedia img{
+  width: 80%;
+ }
+ footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FDEBE7;
+    padding: 10px 0;
+  }
+  
+  .footer-logo img {
+    width: 90px;
+  }
+  .footer-logo{
+    display: inline-block;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0px;
+    display: flex;
+  }
+
+  .footerbar{
+    display: inline-block;
+    float: none;
+    margin: 5px;
+   }
+
+  footer li {
+    padding: 0 20px;
+    list-style: none;
+  }
