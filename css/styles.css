@@ -43,8 +43,9 @@ h1, h2, h3 , h4, h5, h6 {
     text-align: center;
     padding: 50px 50px;/* Add padding for vertical centering */
   }
-  .icon {
-    display: inline-block;
+.icon {
+    display: ;
+    position: relative;
     width: 70px;
     margin-left: 75%; 
     
@@ -161,6 +162,7 @@ h1, h2, h3 , h4, h5, h6 {
 span:first-of-type {
   margin-left: 10px;
 }
+
 
 span:last-of-type {
   margin-right: 10px;
