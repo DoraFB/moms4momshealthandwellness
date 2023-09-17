@@ -11,7 +11,7 @@ h1, h2, h3 , h4, h5, h6 {
     size: 44px;
     font-weight: 100;
     text-align: center;
-    padding: 60px;
+    padding: 40px;
   }
 
   .momheadertext{
@@ -37,7 +37,7 @@ h1, h2, h3 , h4, h5, h6 {
     font-weight: light;
     color: black;
     text-align: center;
-    padding: 60px;
+    padding: 80px;
   }
   .button-container {
     text-align: center;
@@ -127,6 +127,7 @@ h1, h2, h3 , h4, h5, h6 {
     z-index: 100;
     margin-top: -50px;
     margin-left: 35%;
+    padding: 10px
   }
   
   .customNav {
